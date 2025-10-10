@@ -11,7 +11,7 @@ export default function ChatPage() {
   const [messages, setMessages] = useState<ChatMessage[]>([{
     id: cryptoRandomId(),
     role: "assistant",
-    content: "Hey! I’m your helpful AI. Ask me anything."
+    content: "Hey! I’m your AI Assistant. Ask me anything."
   }]);
   const [input, setInput] = useState("");
   const [theme, setTheme] = useState<"light" | "dark">(
